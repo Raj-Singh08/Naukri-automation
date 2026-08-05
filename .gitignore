@@ -1,0 +1,38 @@
+# ------------------------------------------------------------------
+# Node.js
+# ------------------------------------------------------------------
+node_modules/
+
+# ------------------------------------------------------------------
+# Runtime output — created automatically by the script
+# ------------------------------------------------------------------
+screenshots/
+*.log
+
+# ------------------------------------------------------------------
+# Local environment / secrets (never commit these)
+# ------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------------
+# Resume PDF
+# ------------------------------------------------------------------
+# Recommended: KEEP resume/Resume.pdf committed in a PRIVATE repo so that
+# GitHub Actions can find it when it checks out the code.
+#
+# If the repository is PUBLIC, you should NOT expose your resume.
+# Uncomment the line below to ignore it — but remember the scheduled
+# workflow will then fail (no file to upload). Use a private repo instead,
+# or attach the resume in a way you control (see README).
+# resume/Resume.pdf
+
+# ------------------------------------------------------------------
+# OS / editor cruft
+# ------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
